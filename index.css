@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.l{
+    margin-left: 20px;
+    display: flex;
+}
+.l img{
+    height: 40px;
+    width: 80px;
+    margin-right: 20px;
+}
+.l ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.r{
+    margin-right: 20px;
+    gap: 15px;
+}
+.r span{
+    margin-left: 15px;
+    color: white;
+}
+
+
+
+.hero{
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-image: url(img/MoviePoster.png);
+}
+.m-name{
+  padding-top: 100px;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.t{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hero p{
+    font-size: 13px;
+    color: white;
+    width: 500px;
+}
+.hero p img{
+    height: 20px;
+
+    margin-right: 5px;
+}
+.b{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.b-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+background: #FFF;
+height: 40px;
+font-size: 20px;
+width: 90px;
+}
+.b-1 span{
+    margin-right: 5px;
+}
+.b-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--white-30-opacity, rgba(255, 255, 255, 0.30));
+height: 40px;
+font-size: 20px;
+width: 100px;
+}
+.b-2 span{
+    margin-right: 10px;
+}
+.img{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.i-1 img{
+    width: 250px;
+}
+
+.movies{
+    background-color: black;
+    height: 1400px;
+}
